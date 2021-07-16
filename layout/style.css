@@ -1,0 +1,29 @@
+.parent {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.green {
+    height: 10vh;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent .header {
+    display: grid;
+    grid-template-columns: (7, 1fr);
+}
+.blue {
+    height: 80vh;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gray {
+    height: 10vh;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

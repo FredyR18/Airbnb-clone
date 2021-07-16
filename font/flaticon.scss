@@ -1,0 +1,45 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?3a65e8600538236dd9354b1e9a3dbc74") format("truetype"),
+url("./flaticon.woff?3a65e8600538236dd9354b1e9a3dbc74") format("woff"),
+url("./flaticon.woff2?3a65e8600538236dd9354b1e9a3dbc74") format("woff2"),
+url("./flaticon.eot?3a65e8600538236dd9354b1e9a3dbc74#iefix") format("embedded-opentype"),
+url("./flaticon.svg?3a65e8600538236dd9354b1e9a3dbc74#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "lupa": "\f101",
+    "gorjeo": "\f102",
+    "facebook": "\f103",
+    "logotipo-de-instagram": "\f104",
+    "globo": "\f105",
+);
+
+.flaticon-lupa:before {
+    content: map-get($flaticon-map, "lupa");
+}
+.flaticon-gorjeo:before {
+    content: map-get($flaticon-map, "gorjeo");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-logotipo-de-instagram:before {
+    content: map-get($flaticon-map, "logotipo-de-instagram");
+}
+.flaticon-globo:before {
+    content: map-get($flaticon-map, "globo");
+}
