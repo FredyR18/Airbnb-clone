@@ -263,7 +263,31 @@ main section div div a .span-item {
     flex-direction: column;
     margin-left: 10px;
 }
-
+main .main-vivir {
+    padding: 50px 80px 0px 80px;
+}
+main section .vivir-mundo {
+    font-size: 32px;
+    font-weight: 700;
+}
+main section .container-main-vivir {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+main section div a .lugar {
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+}
+main section div .img-vivir {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black);
+}
 
 
 
